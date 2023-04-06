@@ -1,0 +1,65 @@
+.services {
+    padding-top: 130px;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    float: left;
+    background-image: url(../../assets/images/services/bg-image-2.jpg);
+}
+.services-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.services-content .title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+} 
+.services-content .text {
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+    opacity: 0.9;
+}
+.services-info {
+    background-color: var(--main-color);
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 40px 0px;
+}
+.services-info img {
+    width: 55px;
+    background: cyan;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.services-info .title  {
+    color: rgb(216, 216, 216);
+}
+.services-info .text {
+    color: rgb(207, 207, 207);
+    font-size: 16px;
+}
+.services-info:hover {
+    transition: all 0.7s;
+    background: #ffffff;
+}
+.services-info #learn-more {
+    display: none;
+    text-transform: capitalize;
+    background: black;
+    border-radius: 0px;
+    padding: 11px 24px;
+}
+.services-info:hover #learn-more {
+    transition: all 0.7s;
+    display: block;
+}
+.services-info:hover .title  {
+    color: #333;
+}
+.services-info:hover .text {
+    color: #333;
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+@import "partial./navbar.css";
+@import "partial./bannar.css";
+@import "partial./about.css";
+@import "partial./gallery.css";
+@import "partial./services.css";
+@import "partial./testimonial.css";
+@import "partial./contact.css";
+@import "partial./footer-1.css";
+@import "partial./resposive.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-family: sans-serif;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+}
+
+.section-container {
+    margin-bottom: 100px;
+}
+:root {
+    --main-color:#ff7b0a;
+}
+.row {
+    overflow-x: hidden;
+}

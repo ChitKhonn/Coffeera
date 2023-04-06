@@ -1,0 +1,42 @@
+.footer-section-1 {
+    background-color: #252525;
+}
+.footer-section-1 .info {
+    padding: 100px 0;
+}
+.footer-about h2, .footer-menu h2, .footer-useful-link h2, .footer-contact-us h2 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-about p , .footer-contact-us p{
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+}
+.footer-menu .navbar-nav a {
+    color: #fff;
+    padding: 0;
+}
+.footer-menu .navbar-nav a:hover {
+    color: var(--main-color);
+    transition: all .7s;
+}
+.footer-useful-link ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: -30px;
+}
+.footer-contact-us span{
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+}
+.footer-contact-us i {
+    color: #fff;
+    margin-right: 10px;
+}

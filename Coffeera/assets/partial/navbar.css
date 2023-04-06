@@ -1,0 +1,21 @@
+/* .navbar {
+    padding: 10px 0;
+} */
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    line-height: 60px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 800;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #ff7b0a;
+}
+.navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link i{
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.navbar .navbar-nav .nav-link:hover , .navbar .navbar-nav .nav-link i:hover {
+    color: #ff7b0a;
+    transition: all 0.5s;
+}

@@ -1,0 +1,48 @@
+.contact-title h1 {
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    /* overflow: hidden; */
+    margin: 0%;
+    padding: 0%;
+}
+.contact {
+    margin: 0;
+    padding: 0;
+}
+.contact-title {
+    margin-bottom: 90px;
+}
+.contact-info {
+    width: 100%;
+}
+.contact-info .contact-address {
+    background: url(../../assets/images/bg_coffee.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-address input, .contact-address textarea {
+    border-radius: 70px;
+    padding: 25px 44px;
+    width: 90%;
+    margin: 18px 31px;
+    font-size: 20px;
+}
+.contact-address .button a {
+    background-color: #ff3e0a;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 110px;
+    /* height: 28px; */
+    padding: 14px 4px
+}
+.contact-address {
+    /* width: 100%; */
+    padding: 20px 0;
+}
+.contact-address .info {
+    width: 100%;
+}

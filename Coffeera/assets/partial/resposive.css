@@ -1,0 +1,87 @@
+@media(min-width: 768px) and (max-width:992px) {
+    .carousel-control-prev {
+        left: 43%;
+    }
+    .banner_title #outstanding {
+        font-size: 50px;
+    }
+    .banner_title #coffee_shop {
+        font-size: 70px;
+    }
+    .banner_title #text {
+        font-size: 14px;
+    }
+    .about-info p {
+        font-size: 14px;
+    }
+    .about-image img {
+        height: 335px;
+    }
+    .testimonial-content .text {
+        font-size: 15px;
+    }
+    .client_section-info .text  {
+        font-size: 14px;
+    }
+    .contact-address input, .contact-address textarea {
+        border-radius: 70px;
+        padding: 23px 62px;
+        /* width: 100%; */
+        margin: 18px 28px;
+        font-size: 20px;
+    }
+    .footer-about p, .footer-contact-us p {
+        color: #ffff;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0;
+    }
+    .footer-menu .navbar-nav a {
+        font-size: 14px;
+    }
+    .footer-useful-link ul li {
+       font-size: 14px;
+    }
+    .footer-contact-us span {
+        font-size: 14px;
+    }
+
+}
+@media(max-width: 767px) {
+    .navbar-dark .navbar-brand {
+        position: relative;
+    }
+    .carousel-control-prev {
+        left: 40%;
+    }
+    .footer-about p, .footer-contact-us p {
+        color: #ffff;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0;
+    }
+    .footer-menu .navbar-nav a {
+        font-size: 14px;
+    }
+    .testimonial-content .text {
+        font-size: 15px;
+    }
+    .client_section-info .text  {
+        font-size: 14px;
+    }
+    .footer-useful-link ul li {
+        font-size: 14px;
+     }
+    .footer-contact-us span {
+        font-size: 14px;
+    }
+    .gallery-main .gallery-image .img-fluid {
+        width: 100%;
+    }
+    .gallery-main .gallery-image {
+        height: 585px;
+    }
+    .overlay {
+        width: 95%;
+    }
+}

@@ -1,0 +1,13 @@
+.about-title h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #ff7b0a;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about-info p {
+    color: #444;
+}
+.about-info {
+    padding: 40px 0;
+}

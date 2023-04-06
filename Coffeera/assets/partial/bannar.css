@@ -1,0 +1,58 @@
+/* .bannar {
+ 
+} */
+.banner_title #outstanding {
+    font-size: 55px;
+    font-weight: 200;
+    color: #ff7b0a;
+}
+
+.banner_title #coffee_shop {
+    font-size: 75px;
+    color: #ffff;
+    font-weight: 600
+}
+.banner_title #text {
+    font-size: 16px;
+    width: 50%;
+    color: #c7c7c7;
+}
+.carousel {
+    margin: 0px 0px;
+    padding: 100px 0px;
+}
+.carousel-control-prev{
+    position: relative;
+    top: 60px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    background-color: #ffff;
+}
+.carousel-control-next {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    background-color: #ffff;
+}
+.carousel-control-prev i,.carousel-control-next i {
+    color: black;
+}
+#learn-more {
+    text-transform: uppercase;
+    background: black;
+    border-radius: 0px;
+    padding: 11px 24px;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    transition: all 0.7s;
+    background: #ff7b0a;
+}
+.carousel-item #learn-more:hover {
+    transition: all 0.7s;
+    background: #ff7b0a;
+}
